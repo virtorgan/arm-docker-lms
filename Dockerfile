@@ -1,5 +1,5 @@
 FROM jsurf/rpi-raspbian
-
+COPY qemu-arm-static /usr/bin
 # Updates at http://downloads.slimdevices.com/nightly/index.php?ver=8.0
 
 ENV    SQUEEZE_VOL_PERSIST=/var/lib/squeezeboxserver \
