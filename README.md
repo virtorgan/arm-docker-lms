@@ -8,7 +8,9 @@ Based on https://github.com/baztian/armhf-lms
 Folders to map (for permanent data):
 /var/log/squeezeboxserver
 /var/lib/squeezeboxserver
+
 map media folder to:
+
 /media
 
 Ports to map:
