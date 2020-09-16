@@ -24,5 +24,5 @@ docker run -d \
   -p 9000:9000 \
   -p 3483:3483 \
   -p 3483:3483/udp \
-  virtorgan/rpi-lms:8.0.0
+  virtorgan/arm-docker-lms:8.0.0
 ```
