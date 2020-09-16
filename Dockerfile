@@ -8,7 +8,7 @@ ENV    SQUEEZE_VOL_PERSIST=/var/lib/squeezeboxserver \
 	LMS_URL=http://downloads.slimdevices.com/nightly/8.0/lms/5949ad56255da8462b0e9f9fd6153acba5a7a7b3/logitechmediaserver_8.0.0~1600144351_arm.deb
 
 RUN apt-get update && \
-    apt-get -y install perl adduser iproute iputils-ping curl wget faad flac lame sox libio-socket-ssl-perl && \
+    apt-get -y install perl adduser iputils-ping curl wget faad flac lame sox libio-socket-ssl-perl && \
     curl -Lf -o /tmp/lms.deb $LMS_URL && \
 	dpkg -i /tmp/lms.deb && \
 	rm -f /tmp/lms.deb && \
