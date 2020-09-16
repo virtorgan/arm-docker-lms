@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:jessie
+FROM jsurf/rpi-raspbian
 
 # Updates at http://downloads.slimdevices.com/nightly/index.php?ver=8.0
 
