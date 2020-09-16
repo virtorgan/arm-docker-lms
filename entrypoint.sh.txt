@@ -1,0 +1,6 @@
+#!/bin/sh
+
+exec squeezeboxserver --user root \
+	--prefsdir $SQUEEZE_VOL_PERSIST/prefs \
+	--logdir $SQUEEZE_VOL_LOG \
+	--cachedir $SQUEEZE_VOL_PERSIST/cache "$@"
