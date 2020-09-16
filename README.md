@@ -10,7 +10,6 @@ Folders to map (for permanent data):
 /var/lib/squeezeboxserver
 
 map media folder to:
-
 /media
 
 Ports to map:
